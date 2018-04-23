@@ -1,0 +1,13 @@
+{
+    "name": "zplan/storefinder",
+    "description": "Stor finder integrate whit google maps",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Riccardodotti",
+            "email": "riccardodotti.web@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
