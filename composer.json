@@ -8,6 +8,27 @@
             "email": "riccardodotti.web@gmail.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "Zplan\\Storefinder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "master"
+        },
+        "laravel": {
+            "providers": [
+                "Zplan\\Storefinder\\StorefinderServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
+
